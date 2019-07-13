@@ -2,10 +2,153 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c949076-21c9-446b-b64e-5a18062652a1" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/exam/medium/Add/AddTwoNumbers.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/exam/medium/Combination/LetterCombinationsPhoneNumber.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/exam/medium/SlidingWindow/ContainerWithMostWater.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/exam/medium/SlidingWindow/SubarrayProductLessThanK.java" />
+      <change beforePath="$PROJECT_DIR$/leetcode/.classpath" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/.idea/misc.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/.idea/modules.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/.idea/vcs.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/.idea/workspace.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/.project" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/IdeaProjects.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/bin/easy1/BinarySystem.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/bin/easy1/Combination.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/bin/easy1/EditingDistance.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/bin/easy1/Stone.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/bin/easy1/StringMatching.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/bin/easy1/dsfdsaf.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/leetcode.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode1/Tool/sort/quicksort.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode1/emedium/CompareVersionNumbers/CompareVersion.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode1/exam/Tool/kmp/kmp.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode1/exam/easy1/BinarySystem.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode1/exam/easy1/Combination.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode1/exam/easy1/EditingDistance.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode1/exam/easy1/Stone.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode1/exam/easy1/StringMatching.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode1/exam/easy1/dsfdsaf.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode1/exam/medium/Add/AddTwoNumbers.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode1/exam/medium/Add/ListNode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode1/exam/medium/BST/RandomListNode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode1/exam/medium/BST/RangeSumOfBST$BSTNode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode1/exam/medium/BST/RangeSumOfBST.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode1/exam/medium/BST/TreeNode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode1/exam/medium/BST/ValidateBinarySearchTree.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode1/exam/medium/CharsTransform/atoi.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode1/exam/medium/ContainsDuplicate/ContainsDuplicate3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode1/exam/medium/ContinuousSubarraySum/ContinuousSubarraySumI$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode1/exam/medium/ContinuousSubarraySum/ContinuousSubarraySumI.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode1/exam/medium/DecodedStringAtIndex/DecodedStringatIndex.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode1/exam/medium/DinarySearch/SearchforaRange.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode1/exam/medium/Divide/DivideTwoIntegers.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode1/exam/medium/FractionToRecurringDecimal/Fraction.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode1/exam/medium/IIIsum/IIISum.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode1/exam/medium/PalindromicNumber/LongestPalindromicSubstring.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode1/exam/medium/PalindromicNumber/PrimePalindrome.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode1/exam/medium/PalindromicNumber/ShortestPalindrome.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode1/exam/medium/SmallestRange/SmallestRange2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode1/exam/medium/ValidateIPAddress/judgeIPAddress.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode1/exam/medium/dp/DecodeWaysFirst.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode1/exam/medium/dp/MaximumProductSubarray.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode1/exam/medium/dp/MinimumCommonSubsequence.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode1/exam/medium/dp/OnlineStockSpan.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode1/exam/medium/dp/SumofSubarrayMinimums.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode1/exam/medium/ergodic/CloneGraph.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode1/exam/medium/ergodic/SurroundedRegions.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode1/exam/medium/ergodic/UndirectedGraphNode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode1/exam/medium/ergodic/WordLadderI.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode1/exam/medium/link/CopyListwithRandomPointer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode1/exam/medium/link/RandomListNode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode1/exam/medium/reverseString/reverseWordInString.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode1/exam/medium/slidingWindow/ContainerWithMostWater.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode1/exam/medium/slidingWindow/LongestSubstringWithoutRepeatingCharacters.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode1/exam/medium/slidingWindow/SubarrayProductLessThanK.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode1/exam/medium/sort/LargestNumber$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode1/exam/medium/sort/LargestNumber.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode1/exam/medium/sort/WiggleSortII.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode1/leetcode1.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/exam/Tool/kmp/kmp.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/exam/Tool/sort/quicksort.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/exam/easy1/BinarySystem.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/exam/easy1/Combination.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/exam/easy1/EditingDistance.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/exam/easy1/Stone.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/exam/easy1/StringMatching.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/exam/easy1/dsfdsaf.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/exam/medium/Add/AddTwoNumbers.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/exam/medium/BST/RangeSumOfBST.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/exam/medium/BST/ValidateBinarySearchTree.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/exam/medium/CharsTransform/atoi.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/exam/medium/Combination/LetterCombinationsPhoneNumber.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/exam/medium/CompareVersionNumbers/CompareVersion.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/exam/medium/ContainsDuplicate/ContainsDuplicate3.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/exam/medium/ContinuousSubarraySum/ContinuousSubarraySumI.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/exam/medium/DecodedStringAtIndex/DecodedStringatIndex.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/exam/medium/DinarySearch/SearchforaRange.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/exam/medium/Divide/DivideTwoIntegers.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/exam/medium/Ergodic/CloneGraph.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/exam/medium/Ergodic/SurroundedRegions.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/exam/medium/Ergodic/WordLadderI.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/exam/medium/FractionToRecurringDecimal/Fraction.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/exam/medium/IIIsum/IIISum.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/exam/medium/Link/CopyListwithRandomPointer.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/exam/medium/PalindromicNumber/LongestPalindromicSubstring.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/exam/medium/PalindromicNumber/PrimePalindrome.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/exam/medium/PalindromicNumber/ShortestPalindrome.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/exam/medium/ReverseString/reverseWordInString.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/exam/medium/SlidingWindow/ContainerWithMostWater.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/exam/medium/SlidingWindow/LongestSubstringWithoutRepeatingCharacters.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/exam/medium/SlidingWindow/SubarrayProductLessThanK.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/exam/medium/SmallestRange/SmallestRange2.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/exam/medium/Sort/LargestNumber.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/exam/medium/Sort/WiggleSortII.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/exam/medium/ValidateIPAddress/judgeIPAddress.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/exam/medium/dp/DecodeWaysFirst.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/exam/medium/dp/MaximumProductSubarray.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/exam/medium/dp/MinimumCommonSubsequence.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/exam/medium/dp/OnlineStockSpan.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/exam/medium/dp/SumofSubarrayMinimums.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/leetcode1.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/Tool/kmp/kmp.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/Tool/sort/quicksort.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/medium/BST/RandomListNode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/medium/BST/RangeSumOfBST$BSTNode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/medium/BST/RangeSumOfBST.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/medium/BST/TreeNode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/medium/BST/ValidateBinarySearchTree.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/medium/CompareVersionNumbers/CompareVersion.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/medium/ContainsDuplicate/ContainsDuplicate3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/medium/ContinuousSubarraySum/ContinuousSubarraySumI$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/medium/ContinuousSubarraySum/ContinuousSubarraySumI.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/medium/DecodedStringAtIndex/DecodedStringatIndex.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/medium/Divide/DivideTwoIntegers.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/medium/FractionToRecurringDecimal/Fraction.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/medium/IIIsum/IIISum.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/medium/SmallestRange/SmallestRange2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/medium/ValidateIPAddress/judgeIPAddress.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/medium/binarySearch/SearchforaRange.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/medium/charsTransform/atoi.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/medium/dp/DecodeWaysFirst.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/medium/dp/MaximumProductSubarray.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/medium/dp/MinimumCommonSubsequence.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/medium/dp/OnlineStockSpan.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/medium/dp/SumofSubarrayMinimums.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/medium/ergodic/CloneGraph.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/medium/ergodic/SurroundedRegions.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/medium/ergodic/UndirectedGraphNode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/medium/ergodic/WordLadderI.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/medium/link/CopyListwithRandomPointer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/medium/link/RandomListNode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/medium/palindromicNumber/LongestPalindromicSubstring.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/medium/palindromicNumber/PrimePalindrome.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/medium/palindromicNumber/ShortestPalindrome.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/medium/reverseString/reverseWordInString.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/medium/slidingWindow/LongestSubstringWithoutRepeatingCharacters.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/medium/sort/LargestNumber$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/medium/sort/LargestNumber.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/medium/sort/WiggleSortII.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/medium/temp/SubarrayProductLessThanK.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,7 +163,7 @@
       <file leaf-file-name="ContainsDuplicate3.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/exam/medium/ContainsDuplicate/ContainsDuplicate3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
+            <state relative-caret-position="348">
               <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
               <folding />
             </state>
@@ -30,7 +173,7 @@
       <file leaf-file-name="LongestSubstringWithoutRepeatingCharacters.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/exam/medium/SlidingWindow/LongestSubstringWithoutRepeatingCharacters.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
+            <state relative-caret-position="261">
               <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding />
             </state>
@@ -40,8 +183,8 @@
       <file leaf-file-name="ContainerWithMostWater.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/exam/medium/SlidingWindow/ContainerWithMostWater.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+            <state relative-caret-position="1160">
+              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,8 +195,8 @@
       <file leaf-file-name="LetterCombinationsPhoneNumber.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/exam/medium/Combination/LetterCombinationsPhoneNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+            <state relative-caret-position="482">
+              <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,7 +217,7 @@
       <file leaf-file-name="Combination.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/exam/easy1/Combination.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="87">
               <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
               <folding />
             </state>
@@ -84,7 +227,7 @@
       <file leaf-file-name="dsfdsaf.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/exam/easy1/dsfdsaf.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
+            <state relative-caret-position="116">
               <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
               <folding />
             </state>
@@ -94,7 +237,7 @@
       <file leaf-file-name="EditingDistance.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/exam/easy1/EditingDistance.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
+            <state relative-caret-position="58">
               <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding />
             </state>
@@ -104,7 +247,7 @@
       <file leaf-file-name="Stone.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/exam/easy1/Stone.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
+            <state relative-caret-position="116">
               <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
               <folding />
             </state>
@@ -114,8 +257,8 @@
       <file leaf-file-name="AddTwoNumbers.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/exam/medium/Add/AddTwoNumbers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1110">
-              <caret line="50" column="23" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+            <state relative-caret-position="1450">
+              <caret line="50" column="23" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -247,10 +390,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -467,19 +610,19 @@
       <updated>1562768399093</updated>
       <workItem from="1562768402149" duration="735000" />
       <workItem from="1562935546396" duration="14507000" />
+      <workItem from="1562995292152" duration="35000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15242000" />
+    <option name="totallyTimeSpent" value="15277000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="125" y="-11" width="2190" height="1318" extended-state="6" />
+    <frame x="104" y="-9" width="1825" height="1098" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294753" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -490,9 +633,8 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24723247" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24681793" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -503,7 +645,9 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294753" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -517,11 +661,94 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/exam/medium/ContainsDuplicate/ContainsDuplicate3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exam/medium/SlidingWindow/LongestSubstringWithoutRepeatingCharacters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exam/medium/SlidingWindow/ContainerWithMostWater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1160">
+          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exam/medium/SlidingWindow/SubarrayProductLessThanK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exam/easy1/Combination.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exam/easy1/dsfdsaf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exam/easy1/EditingDistance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exam/easy1/Stone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exam/medium/Add/AddTwoNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1450">
+          <caret line="50" column="23" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exam/medium/Combination/LetterCombinationsPhoneNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/exam/Tool/kmp/kmp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
           <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -529,7 +756,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -541,19 +767,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/exam/medium/Temp/SubarrayProductLessThanK.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exam/medium/Temp/SubarrayProductLessThanK.java" />
     <entry file="file://$PROJECT_DIR$/src/exam/Tool/kmp/kmp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
           <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -561,7 +779,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -569,7 +786,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="38" lean-forward="true" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -577,7 +793,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -593,7 +808,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -601,7 +815,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -609,7 +822,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="15" column="10" lean-forward="false" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -617,7 +829,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -631,7 +842,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/exam/easy1/Combination.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="87">
           <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
           <folding />
         </state>
@@ -639,7 +850,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/exam/easy1/dsfdsaf.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
+        <state relative-caret-position="116">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding />
         </state>
@@ -647,7 +858,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/exam/easy1/EditingDistance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
+        <state relative-caret-position="58">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
@@ -655,7 +866,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/exam/easy1/Stone.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
+        <state relative-caret-position="116">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding />
         </state>
@@ -663,23 +874,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/exam/medium/Add/AddTwoNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1110">
-          <caret line="50" column="23" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        <state relative-caret-position="1450">
+          <caret line="50" column="23" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/exam/medium/Temp/SubarrayProductLessThanK.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exam/medium/Temp/SubarrayProductLessThanK.java" />
     <entry file="file://$PROJECT_DIR$/src/exam/medium/ContainsDuplicate/ContainsDuplicate3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
+        <state relative-caret-position="348">
           <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding />
         </state>
@@ -695,7 +899,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/exam/medium/SlidingWindow/LongestSubstringWithoutRepeatingCharacters.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
+        <state relative-caret-position="261">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding />
         </state>
@@ -703,8 +907,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/exam/medium/SlidingWindow/ContainerWithMostWater.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        <state relative-caret-position="1160">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -713,8 +917,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/exam/medium/Combination/LetterCombinationsPhoneNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        <state relative-caret-position="482">
+          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
