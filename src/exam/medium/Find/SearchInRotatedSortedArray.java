@@ -1,4 +1,4 @@
-package exam.medium.Sort;
+package exam.medium.Find;
 
 public class SearchInRotatedSortedArray {
     /**
