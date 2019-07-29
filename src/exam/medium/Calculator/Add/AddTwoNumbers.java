@@ -1,4 +1,4 @@
-package exam.medium.Add;
+package exam.medium.Calculator.Add;
 
 class ListNode{
     int val;

@@ -1,4 +1,4 @@
-package exam.medium.Stack;
+package exam.medium.Calculator.Mingle;
 
 import java.util.Stack;
 
