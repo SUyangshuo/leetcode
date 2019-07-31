@@ -1,4 +1,4 @@
-package exam.medium.Find;
+package exam.medium.Find.DinarySearch;
 
 public class SearchInRotatedSortedArray {
     /**

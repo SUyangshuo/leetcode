@@ -1,4 +1,4 @@
-package exam.medium.DecodedStringAtIndex;
+package exam.medium.Calculator.Remainder;
 
 /**
  * @author YangShuo
@@ -6,24 +6,22 @@ package exam.medium.DecodedStringAtIndex;
  * @comment
  */
 public class DecodedStringatIndex {
+    /**
+     * 880. Decoded String at Index
+     * @param args
+     */
 
     public static void main(String[] args) {
-
-
-
-
         String i = decodeAtIndex2("leet2code3",10);
 
         System.out.print("结果是" + i);
     }
-    //存在有特例，特别大的k值时无法计算
+    //暴力破解法：存在有特例，特别大的k值时无法计算
     public static String decodeAtIndex(String S, int K) {
 
         char[] s=S.toCharArray();
         if(s[S.length()-1]%K==0){
-
         }
-
 
         StringBuffer result=new StringBuffer();
         for(char b:s){
@@ -50,13 +48,9 @@ public class DecodedStringatIndex {
                 if(indexBoolean==false){
                     break;
                 }
-
             }
-
         }
         System.out.print("最终字符串是" + result);
-
-
         return String.valueOf(result.toString().toCharArray()[K-1]);
     }
     //ac版本
@@ -70,21 +64,17 @@ public class DecodedStringatIndex {
                 size++;
             }else{
                 size=size*(s[i]-'0');
-
             }
-            if(size>=K){
+            if(size>=K){//利用取余的  所以只要size》k即可
                 break;
             }
         }
-
         System.out.print("长度是---i是" + size+"----"+i);
-
         //从后往前遍历i
-        if(i==S.length()){
+        if(i==S.length()){//遍历到最后一位了
             i=i-1;
         }
-
-
+        //不可能返回数字，因为k一定在倒数第二个数字和最后一个数字之间
         for(int j=i;j>0;j--){
 
             if(isdigit(s[j])){//如果是数字

@@ -1,4 +1,4 @@
-package exam.medium.Divide;
+package exam.medium.Recurrence.Divide;
 
 /**
  * @author YangShuo

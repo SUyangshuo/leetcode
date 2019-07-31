@@ -1,6 +1,4 @@
-package exam.medium.Find;
-
-import javax.jws.soap.SOAPBinding;
+package exam.medium.Find.DinarySearch;
 
 public class FindPeakElement {
     public static void main(String[] args) {

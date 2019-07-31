@@ -1,4 +1,4 @@
-package exam.medium.DinarySearch;
+package exam.medium.Find.DinarySearch;
 
 /**
  * @author YangShuo
