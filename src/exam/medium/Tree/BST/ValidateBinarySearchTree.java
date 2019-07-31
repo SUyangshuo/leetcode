@@ -1,4 +1,4 @@
-package exam.medium.BST;
+package exam.medium.Tree.BST;
 
 import java.util.ArrayList;
 import java.util.List;
