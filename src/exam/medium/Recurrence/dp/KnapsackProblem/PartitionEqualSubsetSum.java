@@ -1,4 +1,4 @@
-package exam.medium.Recurrence.dp;
+package exam.medium.Recurrence.dp.KnapsackProblem;
 
 import sun.plugin.viewer.LifeCycleManager;
 

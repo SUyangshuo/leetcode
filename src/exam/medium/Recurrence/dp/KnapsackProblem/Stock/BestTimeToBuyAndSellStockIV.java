@@ -1,4 +1,4 @@
-package exam.medium.Recurrence.dp.Stock;
+package exam.medium.Recurrence.dp.KnapsackProblem.Stock;
 
 public class BestTimeToBuyAndSellStockIV {
     /**
