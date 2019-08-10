@@ -1,4 +1,4 @@
-package exam.medium.Recurrence.dp;
+package exam.medium.Recurrence.dp.Palindromic;
 
 import java.util.ArrayList;
 import java.util.List;

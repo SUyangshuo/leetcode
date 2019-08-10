@@ -8,21 +8,12 @@ package exam.medium.PalindromicNumber;
 
 /**
  *  867. Prime Palindrome  回文素数
- * Find the smallest prime palindrome greater than or equal to N.
-
- Recall that a number is prime if it's only divisors are 1 and itself, and it is greater than 1.
-
- For example, 2,3,5,7,11 and 13 are primes.
-
- Recall that a number is a palindrome if it reads the same from left to right as it does from right to left.
-
- For example, 12321 is a palindrome.
 
  判断大于n的最小回文素数
  1：首先是一个素数
  2：是一个回文数
  可知偶数位的回文数都能被11整除（肯定不是素数），所以可以直接判断奇数位的回文数
- 判断n是否为素数时，只需要判断n的平方根是否含能被整除即可
+ 判断n是否为素数时，只需要判断n的平方根是否含能被n整除即可
  */
 public class PrimePalindrome {
     public static void main(String[] args) {
