@@ -17,8 +17,9 @@ public class QueueReconstructionByHeight {
      *
      */
     public static int[][] reconstructQueue(int[][] people) {
+        int[][] result=new int[people.length][];
         if(people==null || people.length==0 || people[0].length==0){
-            return null;
+            return result;
         }
         Arrays.sort(people, new Comparator<int[]>() {
             @Override
