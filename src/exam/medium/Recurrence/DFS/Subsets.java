@@ -76,7 +76,7 @@ class Solution{
     public void DFS2(int[] nums,List<List<Integer>> result,List<Integer> list,int index){
         result.add(new ArrayList<Integer>(list));
         for(int i=index;i<nums.length;i++){
-            list.add(nums[i]);
+
             DFS2(nums,result,list,i+1);
             list.remove(list.size()-1);
         }
