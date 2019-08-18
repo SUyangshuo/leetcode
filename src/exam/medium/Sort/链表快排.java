@@ -12,7 +12,7 @@ public class 链表快排{
         list.set(i, t);
     }
 
-
+    //交换值的链表快排
     public static void qsort(LinkedList<Integer> list, int left, int right) {
 
         if(left < right) {
@@ -38,6 +38,9 @@ public class 链表快排{
             qsort(list, i+1, right);  // 递归排序右边
         }
     }
+
+    //不交换值的链表快排
+
 
 
     public static void main(String[] args) {
