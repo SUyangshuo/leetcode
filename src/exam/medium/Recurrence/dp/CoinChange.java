@@ -12,10 +12,10 @@ public class CoinChange {
      * 方法二：dp
      */
     public static void main(String[] args) {
-        int[] a = new int[]{2};
+        int[] a = new int[]{186,419,83,408};
 
 
-        solution2(a,3);
+        solution2(a,6249);
     }
     /**
      * 方法二：使用dp
@@ -31,8 +31,12 @@ public class CoinChange {
             dp[i][0]=0;
         }
         for(int i=0;i<amount+1;i++){
-            dp[0][i]=Integer.MAX_VALUE;
+            //注意这里不能使用最大值，使用最大值的话 +1后超出表示范围
+            dp[0][i]=Integer.MAX_VALUE-1;
         }
+
+        //先对硬币集合排序
+        Arrays.sort(coins);
         /**
          * 递推式
          * 当前面额可以选择使用或者不使用，
@@ -45,13 +49,30 @@ public class CoinChange {
         for(int i =1;i<amount+1;i++){ //总和 （列）
             for(int j=1;j<coins.length+1;j++){   //面额（行）
                 if(coins[j-1]<=i){
+
                     dp[j][i]=Math.min(dp[j-1][i],dp[j][i-coins[j-1]]+1);
                 }else{
                     dp[j][i]=dp[j-1][i];
                 }
             }
         }
-        return dp[coins.length][amount]>amount?-1:dp[coins.length][amount];
+
+        return dp[coins.length][amount]>amount || dp[coins.length][amount]<0 ?-1:dp[coins.length][amount];
+
+    }
+    //dp优化  使用一维数组即可
+    public int coinChange(int[] coins, int amount) {
+        int length = coins.length;
+        int [] dp = new int[amount + 1];
+        Arrays.fill(dp, Integer.MAX_VALUE -1);
+        dp[0] = 0;
+        for (int i = 1; i <= amount; ++i) {
+            for (int coin: coins) {
+                if (i - coin >= 0)
+                    dp[i] = Math.min(dp[i-coin] + 1, dp[i]);
+            }
+        }
+        return (dp[amount] != Integer.MAX_VALUE -1) ? dp[amount] : -1;
 
 
     }
