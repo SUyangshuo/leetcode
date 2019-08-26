@@ -13,6 +13,7 @@ public class SpiralMatrix {
 class Solution{
     /**
      *     54. Spiral Matrix
+     *     顺时针遍历数组 螺旋遍历
      */
     public List<Integer> spiralOrder(int[][] matrix) {
         List<Integer> result = new ArrayList<>();
