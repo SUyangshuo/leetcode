@@ -1,6 +1,4 @@
 package exam.NiuKe.快手;
-
-
 import java.util.ArrayList;
 import java.util.LinkedList;
 class TreeNode {
@@ -12,8 +10,9 @@ class TreeNode {
         this.val = val;
 
     }
+}
 public class ddasda {
-    public   ArrayList<ArrayList<Integer>> solution(TreeNode pRoot) {
+    public   void solution(TreeNode pRoot) {
         ArrayList<ArrayList<TreeNode>> linkresult=new ArrayList<>();
 
         LinkedList<TreeNode> link=new LinkedList<>();
@@ -48,7 +47,6 @@ public class ddasda {
             }
 
         }
-        //
-        return linkresult;
+
     }
 }

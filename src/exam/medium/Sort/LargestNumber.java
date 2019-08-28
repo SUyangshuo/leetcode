@@ -1,4 +1,4 @@
-package exam.medium.sort;
+package exam.medium.Sort;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;

@@ -15,6 +15,7 @@ public class SortList {
 }
 /**
  * 148. Sort List
+ * 归并排序
  * 要求在O（n*logn）的时间复杂度中，o1的空间复杂度中排列一个链表
  * 重要:首先是要求时间复杂度，
  * 常见的排序方案 冒泡排序、选择排序、插入排序的时间复杂度为O (n^2)，不满足要求。
@@ -29,7 +30,9 @@ class ListNode {
 
 class Solution_sortList {
     /**
-     * 归并排序，首先对链表进行拆分，拆分达到一个以后开始合并，
+     * 归并排序，重点是两个步骤，拆分和合并
+     *
+     * 首先对链表进行拆分，拆分达到一个以后开始合并，
      * 对链表从中间拆分 技巧是利用快慢指针，前一个指针的移动速度是第二个指针的2倍
      * @param head
      * @return
@@ -41,6 +44,7 @@ class Solution_sortList {
         ListNode newListNodeL=head;
         ListNode newListNodeR=head;
         ListNode leftEnd=head;
+        //利用快慢指针，找到中心点
         while(newListNodeR!=null &&  newListNodeR.next!=null){
             leftEnd=newListNodeL;
             newListNodeL=newListNodeL.next;
@@ -48,7 +52,7 @@ class Solution_sortList {
         }
         //拆成了两段 头结点分别是head newListNodeL
         if(leftEnd!=null){
-            leftEnd.next=null;
+            leftEnd.next=null;//中心节点之前拆开
         }
         ListNode a=sortList(head);
         ListNode b=sortList(newListNodeL);
