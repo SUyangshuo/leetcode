@@ -8,30 +8,18 @@ import java.util.*;
  * @create 2019/1/24
  * @comment
  */
-public class IIISum {
-    //求三数之和等于0  不能使用暴力解法
-    public static void main(String[] args) {
-
-
-
-        int[] a={              };
-        threeSum2(a);
-
-
-    }
-
+public class ThreeSum {
+    /**
+     *15. 3Sum
+     * 求三数之和等于0  不能使用暴力解法
+     */
     public static List<List<Integer>> threeSum(int[] nums) {
         //首先对数组排序
         List<List<Integer>> result=new ArrayList<>();
-
-
         Arrays.sort(nums);//首先对集合进行排序
-
         //对于一个已经顺序的集合来说 从第一个开始遍历，a[i]设为标记，这时从i+1---length 找到两个数 和等于a[i]的相反数
         //因为等于0 所以遍历到第一个整数就停止，
-
         //双指针  l指针指向i++  r指针指向length
-
         for(int i=0;i<nums.length-1;i++){
             //System.out.println(tempNume.get(i));
             int tempNumber=nums[i];
@@ -39,24 +27,20 @@ public class IIISum {
             if(nums[i]>0){
                 break;
             }
-            if(i==0 || tempNumber != nums[i-1] ){
+            if(i==0 || tempNumber != nums[i-1] ){//避免重复，遇到重复的数就跳过
                 int t = 0-tempNumber;
-
                 int l=i+1;//左指针
                 int r=nums.length-1;//右指针
-
                 while(l<r){
                     if(nums[l]+nums[r]==t){
-                        //两边指针下一位相同
+                        //两边指针下一位相同，这样的话跳过，防止 重复元素
                         if(r<nums.length-1 && l>i+1  && nums[l]==nums[l-1] && nums[r]==nums[r+1]) {
                             l++;
                             r--;
                             continue;
                         }
-
                         //System.out.println(tempNume.get(i)+"=="+tempNume.get(l)+"=="+tempNume.get(r));
                         result.add(Arrays.asList(nums[i],nums[l],nums[r]));
-
                         if(nums[l]==nums[r]){
                             break;
                         }
@@ -71,12 +55,10 @@ public class IIISum {
                     }
                 }
             }
-
-
         }
-
         return result;
     }
+    //优化算法
     public static List<List<Integer>> threeSum2(int[] nums) {
         List<List<Integer>> result = new ArrayList<List<Integer>>();
         int len = nums.length;
