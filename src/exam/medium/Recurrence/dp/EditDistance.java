@@ -47,7 +47,6 @@ public class EditDistance {
                 }
             }
         }
-
         return dp[len1][len2];
     }
 }
