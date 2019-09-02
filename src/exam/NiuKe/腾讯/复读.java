@@ -8,7 +8,6 @@ public class 复读 {
     public  static Scanner in = new Scanner(System.in);
     public  static Scanner in2 = new Scanner(System.in);
 
-
     public static void main(String[] args) {
         int n=in.nextInt();//长度限制
         String string="";
@@ -22,8 +21,8 @@ public class 复读 {
         int m=in.hasNext()?in.nextInt():1;
         List<String> result=new ArrayList<>();
 
-        while(m>=0){
-            String temp=in.hasNextLine()?in.nextLine():null;
+        while(m>0){
+            String temp=in2.hasNextLine()?in2.nextLine():null;
             list.add(temp);
             m--;
         }
