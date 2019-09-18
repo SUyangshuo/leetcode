@@ -12,7 +12,6 @@ package exam.medium.Recurrence.Ergodic;
       * 从而不需要额外的栈空间来记录顺序关系。通过三种遍历可以看到，其实总体上的代码逻辑没有发生改变，
       * 主要是改变了输出结果的时机和方式。
       */
-
     //todo：中序遍历
     private TreeNode root = null;
     public MorrisTraval(TreeNode r) {
@@ -42,7 +41,6 @@ package exam.medium.Recurrence.Ergodic;
             }
         }
     }
-
     private TreeNode getPredecessor(TreeNode n) {
         TreeNode pre = n;
         if (n.left != null) {
@@ -51,14 +49,11 @@ package exam.medium.Recurrence.Ergodic;
                 pre = pre.right;
             }
         }
-
         return pre;
     }
 }
 //todo:前序遍历
 class MorrisTraval2 {
-
-
     private TreeNode root = null;
     public MorrisTraval2(TreeNode r) {
         this.root = r;
@@ -92,7 +87,6 @@ class MorrisTraval2 {
             }
         }
     }
-
     private TreeNode getPredecessor(TreeNode n) {
         TreeNode pre = n;
         if (n.left != null) {
@@ -101,7 +95,61 @@ class MorrisTraval2 {
                 pre = pre.right;
             }
         }
-
         return pre;
     }
 }
+//todo：后序遍历
+class MorrisTraval3{
+    public static void morrisPos(Node head) {
+        if (head == null) {
+            return;
+        }
+        Node cur1 = head;
+        Node cur2 = null;
+        while (cur1 != null) {
+            cur2 = cur1.left;
+            //先判断当前节点的左节点
+            if (cur2 != null) {//当前节点的左节点存在
+                //找到左节点的中序遍历的最后一个节点，即是前置节点
+                while (cur2.right != null && cur2.right != cur1) {
+                    cur2 = cur2.right;
+                }
+                //如果前置节点的右结点为空，将该节点的右结点指向
+                if (cur2.right == null) {
+                    cur2.right = cur1;
+                    cur1 = cur1.left;
+                     continue;
+                } else {
+                    cur2.right = null;
+                    printEdge(cur1.left);//和中序遍历的区别在于后序遍历是倒序输出
+                }
+            }
+            cur1 = cur1.right;
+        }
+        printEdge(head);
+        System.out.println();
+    }
+    //节点输出
+    public static void printEdge(Node head) {
+        Node tail = reverseEdge(head);
+        Node cur = tail;
+        while (cur != null) {
+            System.out.print(cur.val + " ");
+            cur = cur.right;
+        }
+        reverseEdge(tail);
+    }
+    //翻转节点
+    public static Node reverseEdge(Node from) {
+        Node pre = null;
+        Node next = null;
+        //链表反转
+        while (from != null) {
+            next = from.right;
+            from.right = pre;
+            pre = from;
+            from = next;
+        }
+        return pre;
+    }
+ }
