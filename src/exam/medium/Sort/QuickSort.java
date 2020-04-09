@@ -4,12 +4,9 @@ public class QuickSort {
     public static void main(String[] args) {
         int[] a=new int[]{8,5,4,3,7,5,9,9,4,4,4,5,6};
 
-        Solution solution=new Solution();
-        solution.quickSortInternal3(a,0,a.length-1);
+        quickSortInternal3(a,0,a.length-1);
     }
 
-}
-class Solution{
     /**
      * 快排的衍生版本，双路快排和三路快排
      * 75. Sort Colors
@@ -34,11 +31,14 @@ class Solution{
         A[i]=A[j];
         A[j]=tmp;
     }
-    /*
-　　arr：表示排序数组
-　　l：表示数组左边界
-　　r：表示数组右边界
-    */
+    /**
+     * 传统快排
+     */
+    public void traditionSort(int[] A) {
+
+
+    }
+
 
     /**
      * 三路快排
